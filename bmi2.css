@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFD1DC; /* Soft pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.calculator {
+    background-color: #FFF0F6; /* Very light pink for the calculator background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; /* Increased width for the calculator box */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering content */
+}
+
+.calculator h1 {
+    color: #FF4081; /* Bright pink for the heading */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.calculator label {
+    color: #FF69B4; /* Lighter pink for labels */
+    font-weight: bold;
+    margin: 10px 0 5px;
+    display: block;
+    width: 100%; /* Ensures label width matches input width */
+}
+
+.calculator input[type="number"] {
+    width: 80%; /* Decreased width of input boxes */
+    max-width: 300px; /* Sets a maximum width for input boxes */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #FF69B4; /* Lighter pink for input borders */
+    border-radius: 5px;
+    background-color: #FFEBF2; /* Softest pink for input background */
+    color: #D6336C; /* Dark pink for input text */
+    display: block; /* Ensures input elements are block level for margin to work */
+    margin: 0 auto 20px; /* Centers input boxes */
+}
+
+.calculator button[type="submit"] {
+    width: 80%; /* Matching the input box width for consistency */
+    max-width: 300px; /* Ensures button width matches input boxes */
+    padding: 10px;
+    background-color: #FF4081; /* Bright pink for the button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0 auto; /* Centers button */
+}
+
+.calculator button[type="submit"]:hover {
+    background-color: #D6336C; /* Darker pink on hover */
+}
+
+#result {
+    font-size: 1.2em;
+    color: #D6336C; /* Dark pink for the result text */
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFEBF2; /* Softest pink for result background */
+    width: 80%; /* Matching the input box width for consistency */
+    max-width: 300px; /* Ensures result box width matches input boxes */
+    margin: 20px auto 0; /* Centers result box */
+}
